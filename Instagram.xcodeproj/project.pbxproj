@@ -10,6 +10,9 @@
 		3939A1975DB9C25FCC2123D3 /* libPods-InstagramUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF2D6A8E8A27EC8B4AEE04A2 /* libPods-InstagramUITests.a */; };
 		965834DA35C494645A3E61B1 /* libPods-InstagramTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B38545C8F9A9A53EAF646B4C /* libPods-InstagramTests.a */; };
 		9895ADECD0155D65DAD0ABC7 /* libPods-Instagram.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EFA11449FFC7F2188264FFA5 /* libPods-Instagram.a */; };
+		F59A6A43286BD71E0073C1BB /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F59A6A42286BD71E0073C1BB /* DetailsViewController.m */; };
+		F59A6A89286D695C0073C1BB /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F59A6A88286D695C0073C1BB /* ProfileViewController.m */; };
+		F59A6A8C286D69D80073C1BB /* PostCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F59A6A8B286D69D80073C1BB /* PostCollectionViewCell.m */; };
 		F5CDAB8B286A54F300DD1836 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CDAB8A286A54F300DD1836 /* AppDelegate.m */; };
 		F5CDAB8E286A54F300DD1836 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CDAB8D286A54F300DD1836 /* SceneDelegate.m */; };
 		F5CDAB94286A54F300DD1836 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5CDAB92286A54F300DD1836 /* Main.storyboard */; };
@@ -20,6 +23,10 @@
 		F5CDABB0286A54F400DD1836 /* InstagramUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CDABAF286A54F400DD1836 /* InstagramUITests.m */; };
 		F5CDABB2286A54F400DD1836 /* InstagramUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CDABB1286A54F400DD1836 /* InstagramUITestsLaunchTests.m */; };
 		F5CDABC0286A568500DD1836 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CDABBF286A568500DD1836 /* LoginViewController.m */; };
+		F5CDABC3286A634500DD1836 /* HomeFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CDABC2286A634500DD1836 /* HomeFeedViewController.m */; };
+		F5CDABC6286A716400DD1836 /* PhotoMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CDABC5286A716400DD1836 /* PhotoMapViewController.m */; };
+		F5CDABC9286A758A00DD1836 /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CDABC8286A758A00DD1836 /* Post.m */; };
+		F5CDABCF286BA37800DD1836 /* PostTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CDABCE286BA37800DD1836 /* PostTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +55,12 @@
 		EBF3B8DDAA5601294F901113 /* Pods-InstagramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InstagramUITests/Pods-InstagramUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		ECF8F8813A9B6C3EEC12E1BD /* Pods-Instagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Instagram/Pods-Instagram.debug.xcconfig"; sourceTree = "<group>"; };
 		EFA11449FFC7F2188264FFA5 /* libPods-Instagram.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Instagram.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F59A6A41286BD71E0073C1BB /* DetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		F59A6A42286BD71E0073C1BB /* DetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
+		F59A6A87286D695C0073C1BB /* ProfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		F59A6A88286D695C0073C1BB /* ProfileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		F59A6A8A286D69D80073C1BB /* PostCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PostCollectionViewCell.h; sourceTree = "<group>"; };
+		F59A6A8B286D69D80073C1BB /* PostCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PostCollectionViewCell.m; sourceTree = "<group>"; };
 		F5CDAB86286A54F300DD1836 /* Instagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5CDAB89286A54F300DD1836 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F5CDAB8A286A54F300DD1836 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -65,6 +78,14 @@
 		F5CDABB1286A54F400DD1836 /* InstagramUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstagramUITestsLaunchTests.m; sourceTree = "<group>"; };
 		F5CDABBE286A568500DD1836 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		F5CDABBF286A568500DD1836 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		F5CDABC1286A634500DD1836 /* HomeFeedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeFeedViewController.h; sourceTree = "<group>"; };
+		F5CDABC2286A634500DD1836 /* HomeFeedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeFeedViewController.m; sourceTree = "<group>"; };
+		F5CDABC4286A716400DD1836 /* PhotoMapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoMapViewController.h; sourceTree = "<group>"; };
+		F5CDABC5286A716400DD1836 /* PhotoMapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoMapViewController.m; sourceTree = "<group>"; };
+		F5CDABC7286A758A00DD1836 /* Post.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
+		F5CDABC8286A758A00DD1836 /* Post.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
+		F5CDABCD286BA37800DD1836 /* PostTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PostTableViewCell.h; sourceTree = "<group>"; };
+		F5CDABCE286BA37800DD1836 /* PostTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PostTableViewCell.m; sourceTree = "<group>"; };
 		F7F02155B674F6E01C01855A /* Pods-Instagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Instagram/Pods-Instagram.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -149,11 +170,25 @@
 				F5CDAB8C286A54F300DD1836 /* SceneDelegate.h */,
 				F5CDAB8D286A54F300DD1836 /* SceneDelegate.m */,
 				F5CDAB92286A54F300DD1836 /* Main.storyboard */,
+				F59A6A8A286D69D80073C1BB /* PostCollectionViewCell.h */,
+				F59A6A8B286D69D80073C1BB /* PostCollectionViewCell.m */,
+				F59A6A87286D695C0073C1BB /* ProfileViewController.h */,
+				F59A6A88286D695C0073C1BB /* ProfileViewController.m */,
+				F59A6A41286BD71E0073C1BB /* DetailsViewController.h */,
+				F59A6A42286BD71E0073C1BB /* DetailsViewController.m */,
+				F5CDABCD286BA37800DD1836 /* PostTableViewCell.h */,
+				F5CDABCE286BA37800DD1836 /* PostTableViewCell.m */,
+				F5CDABC7286A758A00DD1836 /* Post.h */,
+				F5CDABC8286A758A00DD1836 /* Post.m */,
+				F5CDABC1286A634500DD1836 /* HomeFeedViewController.h */,
+				F5CDABC2286A634500DD1836 /* HomeFeedViewController.m */,
 				F5CDABBE286A568500DD1836 /* LoginViewController.h */,
 				F5CDABBF286A568500DD1836 /* LoginViewController.m */,
 				F5CDAB95286A54F400DD1836 /* Assets.xcassets */,
 				F5CDAB97286A54F400DD1836 /* LaunchScreen.storyboard */,
 				F5CDAB9A286A54F400DD1836 /* Info.plist */,
+				F5CDABC4286A716400DD1836 /* PhotoMapViewController.h */,
+				F5CDABC5286A716400DD1836 /* PhotoMapViewController.m */,
 				F5CDAB9B286A54F400DD1836 /* main.m */,
 			);
 			path = Instagram;
@@ -330,11 +365,15 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Instagram/Pods-Instagram-resources.sh",
+				"${PODS_ROOT}/DateTools/DateTools/DateTools/DateTools.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/Parse/Parse.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/Parse/ParseUI.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DateTools.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Parse.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ParseUI.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -384,10 +423,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5CDABC6286A716400DD1836 /* PhotoMapViewController.m in Sources */,
+				F59A6A8C286D69D80073C1BB /* PostCollectionViewCell.m in Sources */,
+				F5CDABC3286A634500DD1836 /* HomeFeedViewController.m in Sources */,
 				F5CDAB8B286A54F300DD1836 /* AppDelegate.m in Sources */,
 				F5CDAB9C286A54F400DD1836 /* main.m in Sources */,
+				F59A6A89286D695C0073C1BB /* ProfileViewController.m in Sources */,
 				F5CDAB8E286A54F300DD1836 /* SceneDelegate.m in Sources */,
 				F5CDABC0286A568500DD1836 /* LoginViewController.m in Sources */,
+				F59A6A43286BD71E0073C1BB /* DetailsViewController.m in Sources */,
+				F5CDABC9286A758A00DD1836 /* Post.m in Sources */,
+				F5CDABCF286BA37800DD1836 /* PostTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -561,8 +607,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 987FLBMUYL;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Instagram/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Need camera access to take pictures";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Need library access to upload images";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -573,7 +622,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.fb.Instagram;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apoorva.insta;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -588,8 +637,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 987FLBMUYL;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Instagram/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Need camera access to take pictures";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Need library access to upload images";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -600,7 +652,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.fb.Instagram;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apoorva.insta;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -614,6 +666,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
@@ -632,6 +685,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;

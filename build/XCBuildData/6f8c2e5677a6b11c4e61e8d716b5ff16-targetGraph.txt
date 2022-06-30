@@ -1,0 +1,13 @@
+Target dependency graph (6 targets)
+Bolts in Pods, no dependencies
+Parse-Parse in Pods, no dependencies
+Parse in Pods, depends on:
+Bolts in Pods (explicit)
+Parse-Parse in Pods (explicit)
+Pods-Instagram in Pods, depends on:
+Bolts in Pods (explicit)
+Parse in Pods (explicit)
+Pods-InstagramTests in Pods, depends on:
+Pods-Instagram in Pods (explicit)
+Pods-InstagramUITests in Pods, depends on:
+Pods-Instagram in Pods (explicit)

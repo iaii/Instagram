@@ -1,0 +1,61 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e9813989c7049e1b0258f5847bd1737f14e"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e98b7900aaee4642784072a7c88f405e2c8"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e985bf38f374ea890b6451682546f3663bb"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e98e3075c9a408ebeb9e6e98f64d2b3401a"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e98e82063eb72e9099514091ca875e0fd01"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e98eb3061fcfa82844881a8041d9a803936"
+    }
+  ],
+  "containerPath" : "/Users/apoorvac/Desktop/CodePath Projects/Projects/Instagram/Pods/Pods.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/apoorvac/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/apoorvac/Library/Developer/Xcode/DerivedData/Pods-fbweiwfjjvlyvsfasujiisurlshj/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/apoorvac/Library/Developer/Xcode/DerivedData/Pods-fbweiwfjjvlyvsfasujiisurlshj/Index/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Release",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : false,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : false
+}

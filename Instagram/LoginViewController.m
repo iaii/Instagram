@@ -15,6 +15,8 @@
 - (IBAction)didTapSignUp:(id)sender;
 - (IBAction)didTapLogin:(id)sender;
 
+
+
 @end
 
 @implementation LoginViewController
@@ -61,9 +63,8 @@
                 NSLog(@"Error: %@", error.localizedDescription);
             } else {
                 NSLog(@"User registered successfully");
-                
-                [self performSegueWithIdentifier:@"signUp" sender:nil];
-
+                UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+                self.view.window.rootViewController = [storyboard instantiateViewControllerWithIdentifier:@"TabViewController"];
             }
         }];
     }
@@ -99,11 +100,6 @@
         // optional code for what happens after the alert controller has finished presenting
     }];
     
-    [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:alert
-                                                                                 animated:YES
-                                                                               completion:^{
-                                                                                       // optional code for what happens after the alert controller has finished presenting
-                                                                               }];
 }
 
 @end
