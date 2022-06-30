@@ -10,6 +10,7 @@
 		3939A1975DB9C25FCC2123D3 /* libPods-InstagramUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF2D6A8E8A27EC8B4AEE04A2 /* libPods-InstagramUITests.a */; };
 		965834DA35C494645A3E61B1 /* libPods-InstagramTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B38545C8F9A9A53EAF646B4C /* libPods-InstagramTests.a */; };
 		9895ADECD0155D65DAD0ABC7 /* libPods-Instagram.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EFA11449FFC7F2188264FFA5 /* libPods-Instagram.a */; };
+		F53B3121286E5159001F37CA /* InfiniteScrollActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = F53B3120286E5159001F37CA /* InfiniteScrollActivityView.m */; };
 		F59A6A43286BD71E0073C1BB /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F59A6A42286BD71E0073C1BB /* DetailsViewController.m */; };
 		F59A6A89286D695C0073C1BB /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F59A6A88286D695C0073C1BB /* ProfileViewController.m */; };
 		F59A6A8C286D69D80073C1BB /* PostCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F59A6A8B286D69D80073C1BB /* PostCollectionViewCell.m */; };
@@ -55,6 +56,8 @@
 		EBF3B8DDAA5601294F901113 /* Pods-InstagramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InstagramUITests/Pods-InstagramUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		ECF8F8813A9B6C3EEC12E1BD /* Pods-Instagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Instagram/Pods-Instagram.debug.xcconfig"; sourceTree = "<group>"; };
 		EFA11449FFC7F2188264FFA5 /* libPods-Instagram.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Instagram.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F53B311F286E5159001F37CA /* InfiniteScrollActivityView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InfiniteScrollActivityView.h; sourceTree = "<group>"; };
+		F53B3120286E5159001F37CA /* InfiniteScrollActivityView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InfiniteScrollActivityView.m; sourceTree = "<group>"; };
 		F59A6A41286BD71E0073C1BB /* DetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
 		F59A6A42286BD71E0073C1BB /* DetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
 		F59A6A87286D695C0073C1BB /* ProfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
@@ -182,6 +185,8 @@
 				F5CDABC8286A758A00DD1836 /* Post.m */,
 				F5CDABC1286A634500DD1836 /* HomeFeedViewController.h */,
 				F5CDABC2286A634500DD1836 /* HomeFeedViewController.m */,
+				F53B311F286E5159001F37CA /* InfiniteScrollActivityView.h */,
+				F53B3120286E5159001F37CA /* InfiniteScrollActivityView.m */,
 				F5CDABBE286A568500DD1836 /* LoginViewController.h */,
 				F5CDABBF286A568500DD1836 /* LoginViewController.m */,
 				F5CDAB95286A54F400DD1836 /* Assets.xcassets */,
@@ -427,6 +432,7 @@
 				F59A6A8C286D69D80073C1BB /* PostCollectionViewCell.m in Sources */,
 				F5CDABC3286A634500DD1836 /* HomeFeedViewController.m in Sources */,
 				F5CDAB8B286A54F300DD1836 /* AppDelegate.m in Sources */,
+				F53B3121286E5159001F37CA /* InfiniteScrollActivityView.m in Sources */,
 				F5CDAB9C286A54F400DD1836 /* main.m in Sources */,
 				F59A6A89286D695C0073C1BB /* ProfileViewController.m in Sources */,
 				F5CDAB8E286A54F300DD1836 /* SceneDelegate.m in Sources */,

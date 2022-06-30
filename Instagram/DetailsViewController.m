@@ -17,9 +17,9 @@
     [super viewDidLoad];
     
     self.author.text = self.post[@"author"][@"username"];
-    self.caption.text = self.post[@"caption"];
-    //cell.likeCount.text = [NSString stringWithFormat:@"%d", post[@"likeCount"]];
-    //cell.commentCount.text = [NSString stringWithFormat:@"%d", post[@"commentCount"]];
+    self.caption.text = self.post.caption;
+    self.likeCount.text = [NSString stringWithFormat:@"%@", self.post[@"likeCount"]];
+    self.commentCount.text = [NSString stringWithFormat:@"%@", self.post[@"commentCount"]];
 
     self.image.file = self.post[@"image"];
     NSDate *date = self.post.createdAt;

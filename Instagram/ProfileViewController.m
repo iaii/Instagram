@@ -22,6 +22,15 @@
     [super viewDidLoad];
     self.collectionView.dataSource = self;
     self.collectionView.delegate = self;
+    PFUser *user = [PFUser currentUser];
+    self.pfpPic.file = user[@"profileImage"];
+    [self.pfpPic loadInBackground];
+    
+    
+    UITapGestureRecognizer *profileTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(didTapPhoto)];
+        [self.pfpPic addGestureRecognizer:profileTap];
+        [self.pfpPic setUserInteractionEnabled:YES];
+    
     [self getPosts];
 }
 
@@ -64,6 +73,21 @@
    }];
 }
 
+- (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary<NSString *,id> *)info {
+    
+    // Get the image captured by the UIImagePickerController
+    UIImage *originalImage = info[UIImagePickerControllerOriginalImage];
+    UIImage *editedImage = info[UIImagePickerControllerEditedImage];
+
+    // Do something with the images (based on your use case)
+
+    // Dismiss UIImagePickerController to go back to your original view controller
+    [self dismissViewControllerAnimated:YES completion:nil];
+    
+    self.pfpPic.image = editedImage;
+}
+
+
 - (nonnull __kindof UICollectionViewCell *)collectionView:(nonnull UICollectionView *)collectionView cellForItemAtIndexPath:(nonnull NSIndexPath *)indexPath {
     
     PostCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"pfpPostCellView" forIndexPath:indexPath];
@@ -83,6 +107,16 @@
 //    detailsViewController.movie = movie;
 //}
 
+
+-(void) didTapPhoto{
+    NSLog(@"Choose pic");
+    UIImagePickerController *imagePickerVC = [UIImagePickerController new];
+    imagePickerVC.delegate = self;
+    imagePickerVC.allowsEditing = YES;
+    imagePickerVC.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
+    
+    [self presentViewController:imagePickerVC animated:YES completion:nil];
+}
 
 
 @end
